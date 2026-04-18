@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Melvin Tai - Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-container-highest": "#e3e2e1",
+                      "tertiary-fixed": "#ffdbc8",
+                      "secondary-fixed": "#e4e0ee",
+                      "secondary-fixed-dim": "#c8c5d2",
+                      "surface-tint": "#7331df",
+                      "on-tertiary-fixed": "#321300",
+                      "secondary-container": "#e4e0ee",
+                      "on-primary-fixed": "#250059",
+                      "on-secondary": "#ffffff",
+                      "tertiary-container": "#8f4200",
+                      "on-surface-variant": "#4a4455",
+                      "error-container": "#ffdad6",
+                      "tertiary": "#6b3000",
+                      "outline": "#7b7486",
+                      "surface-dim": "#dadad9",
+                      "on-error": "#ffffff",
+                      "on-primary-fixed-variant": "#5b00c5",
+                      "inverse-primary": "#d3bbff",
+                      "surface-container-lowest": "#ffffff",
+                      "on-tertiary-container": "#ffc19e",
+                      "tertiary-fixed-dim": "#ffb68b",
+                      "background": "#faf9f8",
+                      "surface-container-high": "#e9e8e7",
+                      "primary-fixed": "#ebddff",
+                      "on-surface": "#1a1c1c",
+                      "on-secondary-fixed-variant": "#474550",
+                      "on-secondary-fixed": "#1b1b24",
+                      "primary": "#5300b7",
+                      "on-error-container": "#93000a",
+                      "inverse-surface": "#2f3130",
+                      "outline-variant": "#ccc3d7",
+                      "on-secondary-container": "#65636f",
+                      "surface-container-low": "#f4f3f2",
+                      "on-background": "#1a1c1c",
+                      "surface-variant": "#e3e2e1",
+                      "secondary": "#5f5d69",
+                      "primary-container": "#6d28d9",
+                      "surface": "#faf9f8",
+                      "primary-fixed-dim": "#d3bbff",
+                      "on-tertiary": "#ffffff",
+                      "surface-bright": "#faf9f8",
+                      "inverse-on-surface": "#f1f0f0",
+                      "surface-container": "#eeeeed",
+                      "on-primary-container": "#dac5ff",
+                      "on-primary": "#ffffff",
+                      "error": "#ba1a1a",
+                      "on-tertiary-fixed-variant": "#743400"
+              },
+              "borderRadius": {
+                      "DEFAULT": "1rem",
+                      "lg": "2rem",
+                      "xl": "3rem",
+                      "full": "9999px"
+              },
+              "spacing": {},
+              "fontFamily": {
+                      "headline": [
+                              "Inter", "sans-serif"
+                      ],
+                      "body": [
+                              "Inter", "sans-serif"
+                      ],
+                      "label": [
+                              "Inter", "sans-serif"
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #faf9f8;
+            color: #1a1c1c;
+            transition: background-color 0.8s ease-out;
+        }
+        body.scrolled {
+            background-color: #f4f3f2;
+        }
+        .parallax-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+            background: radial-gradient(circle at 50% -20%, rgba(109, 40, 217, 0.03) 0%, transparent 70%);
+            transition: transform 0.1s linear;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+  
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .section-heading {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #1a1c1c;
+            letter-spacing: -0.05em;
+        }
+        .section-heading::before {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 4px;
+            background-color: #6d28d9;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col pt-20 font-body">
+<div class="parallax-bg" id="parallax-bg"></div>
+
+  <!-- TopNavBar Component -->
+<nav class="fixed top-0 left-0 w-full z-50 h-20 bg-[#faf9f8]/80 dark:bg-[#1a1c1c]/80 backdrop-blur-xl no-border shadow-none bg-surface flex justify-between items-center px-6 md:px-12 lg:px-24 max-w-[1440px] mx-auto transition-colors duration-300" id="navbar">
+<div class="text-2xl font-black tracking-tighter text-[#1a1c1c] dark:text-[#faf9f8]">
+            MT. Portfolio
+        </div>
+<div class="hidden md:flex items-center gap-8 font-['Inter'] font-medium tracking-tight text-sm">
+<a class="text-[#1a1c1c] dark:text-[#faf9f8] font-bold pb-1 scale-102 transition-transform duration-200 ease-out transition-all duration-300" href="#about">About</a>
+<a class="text-[#4a4455] dark:text-[#ccc3d7] font-medium scale-102 transition-transform duration-200 ease-out hover:text-[#1a1c1c] transition-all duration-300" href="#experience">Experience</a>
+<a class="text-[#4a4455] dark:text-[#ccc3d7] font-medium scale-102 transition-transform duration-200 ease-out hover:text-[#1a1c1c] transition-all duration-300" href="#projects">Projects</a>
+<a class="text-[#4a4455] dark:text-[#ccc3d7] font-medium scale-102 transition-transform duration-200 ease-out hover:text-[#1a1c1c] transition-all duration-300" href="#research">Research</a>
+<a class="text-[#4a4455] dark:text-[#ccc3d7] font-medium scale-102 transition-transform duration-200 ease-out hover:text-[#1a1c1c] transition-all duration-300" href="#skills">Skills</a>
+</div>
+<button class="bg-[#1a1c1c] text-white px-6 py-2.5 rounded-full font-bold text-sm hover:scale-[1.02] transition-transform shadow-sm hidden md:block uppercase tracking-wider">
+            Get in Touch
+        </button>
+</nav>
+  
+<!-- Main Content Canvas -->
+<main class="flex-grow w-full max-w-[1440px] mx-auto px-6 md:px-12 lg:px-24 flex flex-col gap-32 pb-32">
+
+  <!-- 1. About Section -->
+<section class="pt-32 pb-16 flex flex-col lg:flex-row items-stretch justify-between gap-16 relative" id="about">
+
+  <!-- Left Column: Typography & Details -->
+<div class="flex-1 flex flex-col justify-between items-start z-10 w-full lg:max-w-2xl py-2">
+<div>
+<h1 class="text-5xl md:text-6xl lg:text-[4rem] font-black tracking-tighter leading-[1] text-on-surface uppercase">
+                        Melvin Tai
+                    </h1>
+<div class="flex flex-wrap items-center gap-4 text-xs font-semibold uppercase tracking-wider mt-4">
+<span class="bg-surface-container-high text-on-surface px-3 py-1.5 rounded-sm">
+                            COMPUTER SCIENCE IN DATA SCIENCE UNDERGRADUATE
+                        </span>
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm">location_on</span>
+<span>Monash</span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-primary-container text-sm">school</span>
+<span>Expected Graduation: June 2027</span>
+</div>
+</div>
+<p class="text-base md:text-lg text-on-surface-variant leading-relaxed max-w-xl mt-6 font-normal">
+                        Bridging the gap between <strong class="text-on-surface font-semibold">data strategy</strong> and <strong class="text-on-surface font-semibold">technical execution</strong>. I architect machine learning systems that transform complex raw data into actionable, business-critical insights. Specializing in robust modeling and elegant deployment.
+                    </p>
+</div>
+<div class="mt-8 flex gap-4">
+<a class="bg-[#1a1c1c] text-white px-8 py-3.5 rounded-full font-bold hover:scale-[1.02] transition-transform shadow-lg shadow-black/10 flex items-center gap-2 text-sm uppercase tracking-wider" href="#projects">
+            View Projects
+            <span class="material-symbols-outlined text-sm">arrow_downward</span>
+</a>
+</div>
+</div>
+  
+<!-- Right Column: Profile Image -->
+<div class="w-full lg:w-1/3 flex justify-start lg:justify-end shrink-0 relative">
+<div class="relative z-10 w-full h-[400px] lg:w-[400px] overflow-hidden rounded-2xl shadow-lg">
+<img alt="Portrait of Melvin Tai" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="Black and white professional portrait of a young man with short hair wearing a dark sweater, soft natural lighting, shallow depth of field against a minimalist neutral background" src="docs/pfp.jpg"/>
+</div>
+</div>
+</section>
+  
+<!-- Footer Component -->
+<footer class="w-full py-16 mt-24 bg-[#eeeeed] dark:bg-[#1a1c1c] tonal-shift-no-border flat no-shadows flex flex-col md:flex-row justify-between items-center px-6 md:px-12 lg:px-24 max-w-[1440px] mx-auto gap-8 ease-in-out duration-300 relative z-10">
+<div class="font-['Inter'] text-xs uppercase tracking-widest text-[#4a4455] dark:text-[#ccc3d7]">
+            © 2026 Melvin Tai - Personal Portfolio.
+        </div>
+<div class="flex gap-6 font-['Inter'] text-xs uppercase tracking-widest text-[#4a4455] dark:text-[#ccc3d7]">
+<a class="text-[#4a4455] hover:text-[#6D28D9] hover:translate-y-[-2px] transition-all" href="#">LinkedIn</a>
+<a class="text-[#4a4455] hover:text-[#6D28D9] hover:translate-y-[-2px] transition-all" href="#">GitHub</a>
+<a class="text-[#4a4455] hover:text-[#6D28D9] hover:translate-y-[-2px] transition-all" href="#">Scholar</a>
+<a class="text-[#4a4455] hover:text-[#6D28D9] hover:translate-y-[-2px] transition-all" href="#">Email</a>
+</div>
+</footer>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const parallaxBg = document.getElementById('parallax-bg');
+        const navbar = document.getElementById('navbar');
+        
+        window.addEventListener('scroll', () => {
+            const scrolled = window.scrollY;
+            
+            if (parallaxBg) {
+                parallaxBg.style.transform = `translateY(${scrolled * 0.15}px)`;
+            }
+            
+            if (scrolled > 150) {
+                document.body.classList.add('scrolled');
+                navbar.classList.add('bg-[#f4f3f2]/80');
+                navbar.classList.remove('bg-[#faf9f8]/80');
+            } else {
+                document.body.classList.remove('scrolled');
+                navbar.classList.remove('bg-[#f4f3f2]/80');
+                navbar.classList.add('bg-[#faf9f8]/80');
+            }
+        });
+    });
+</script>
+</body></html>
