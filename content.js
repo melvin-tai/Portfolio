@@ -71,7 +71,7 @@ window.PORTFOLIO = {
       end: "May 2027",
       summary:
         "Built the first generation of mOptima, a student tech-consultancy team focused on competitive innovation, automation and global partnerships.",
-      tags: ["C-suite management", "Advisory pitching", "Google Workspace", "Canva"]
+      tags: ["C-Suite Management", "Advisory Pitching", "Google Workspace", "Canva", "n8n", "PikaPods"]
     },
     {
       title: "Director, President's Office",
@@ -80,10 +80,10 @@ window.PORTFOLIO = {
       start: "Jun 2026",
       end: "Dec 2026",
       highlights: [
-        "Executed 6+ events over 4 months, reaching 13,800+ higher-education students, and built liaison with 100+ SMEs and MNCs (including Big Four consulting partners in Southeast Asia) to drive external partnerships, generating RM20,000+ in event revenue.",
-        "Engineered a conditional marketing tracker for 30+ committees using Google Sheets, the Google Calendar API and Apps Script."
+        "Executed 6+ events over 4 months, reaching 13,800+ higher education students and established liaison with 100+ SMEs and MNCs (including Big4 SEA Consulting Partners) to drive external partnerships, accumulating RM20,000+ in event revenue.",
+        "Engineered conditional Marketing Tracker using Google Sheets, Google Calendar API, and Apps Script for 30+ committees."
       ],
-      tags: ["Partnerships", "Event management", "Apps Script", "Google Calendar API"]
+      tags: ["Partnerships", "Management", "Apps Script", "Google Sheets", "Google Calendar API"]
     },
     {
       title: "Officer, Strategy Department",
@@ -92,20 +92,20 @@ window.PORTFOLIO = {
       start: "Dec 2025",
       end: "May 2026",
       highlights: [
-        "Assessed 5+ events and delivered 90+ internship and career opportunities and advice to a community of 1,800+ students.",
-        "Developed an automated posting-tracker system for 30+ committees using Google Sheets, the Google Calendar API and Apps Script (JavaScript), streamlining outreach and engagement by 40%+."
+        "Assessed 5+ events and provided 90+ internship/career opportunities and advice across a community of over 1,800+ students.",
+        "Developed and coordinated an automated Posting Tracker management system using Google Sheets, Google Calendar API, and Apps Script Extension (Javascript) for over 30+ committees, effectively streamlining outreach and engagement by 40%+."
       ],
       tags: ["JavaScript", "Apps Script", "Google Sheets", "Google Calendar API"]
     },
     {
-      title: "Auditor, Heads of Finance’s Department",
+      title: "Auditor, Heads of Finance's Department",
       organization: "Monash University Student Association",
       location: "Monash University Malaysia",
       start: "Aug 2025",
       end: "Dec 2025",
       summary:
-        "Prepared financial reports (fund acknowledgement receipts, fund requisition forms, budget proposals and financial reports) for 20+ events totalling RM15,000+ in reimbursements in Microsoft Excel, serving 3,600+ students.",
-      tags: ["Microsoft Excel", "Financial reporting"]
+        "Constructed financial reports (Fund Acknowledge Receipts, Fund Requisition Forms, and Budget Proposal & Financial Reports) for 20+ events, totaling RM15,000+ in reimbursements using Microsoft Excel, impacting over 3,600+ students.",
+      tags: ["Microsoft Excel", "Financial Reporting"]
     },
     {
       title: "Auditor, Secretary and Treasurer Department",
@@ -114,7 +114,7 @@ window.PORTFOLIO = {
       start: "Aug 2025",
       end: "Nov 2025",
       summary:
-        "Ran treasury and secretarial processes and funding assurance for 3 events (RM300+), liaising with the umbrella organisation and enforcing 3+ compliance checks for 200+ participants.",
+        "Delivered treasury and secretary processes and club funding assurance for 3 events totaling RM300+ by liaising with correspondents from umbrella organization and enforcing 3+ compliance checks, impacting over 200+ participants.",
       tags: ["Treasury", "Compliance"]
     }
   ],
@@ -127,7 +127,7 @@ window.PORTFOLIO = {
       end: "Present",
       summary:
         "An AI-powered thermal-imaging security screening system, trained on a specialised dataset, that detects threats in real time and classifies them to an exact label (e.g. \"Glock-19\", \"Blade, 5-inch\"). Built in Python and PyTorch to reduce the X-ray use, time and cost of basic security screening.",
-      tags: ["Python", "PyTorch", "Computer vision", "Deep learning"],
+      tags: ["Python", "PyTorch", "Computer Vision", "Deep Learning"],
       link: "https://github.com/melvin-tai/Thermal-Imaging-AI-Security-Screening-System",
       linkLabel: "Repository"
     },
@@ -138,7 +138,7 @@ window.PORTFOLIO = {
       end: "Present",
       summary:
         "Optimising week-horizon (mid-term) trading prediction accuracy by identifying the most effective input ranges. Subject: SPY (SPDR S&P 500 ETF Trust), with data from Kaggle.",
-      tags: ["Python", "Dimensionality reduction", "Polars", "scikit-learn", "Jupyter"],
+      tags: ["Python", "Dimensionality Reduction", "Polars", "scikit-learn", "Jupyter"],
       link: "https://github.com/melvin-tai/Swing-Trading-Trend-Correlative-Predictor",
       linkLabel: "Repository"
     },
@@ -160,7 +160,7 @@ window.PORTFOLIO = {
       end: "Oct 2026",
       summary:
         "A browser-based lab for adjusting focal length, fisheye distortion and GoPro lens modes to see how angle and field of view change in real time, with nothing to install.",
-      tags: ["JavaScript", "Camera modelling", "Computer vision"],
+      tags: ["JavaScript", "Camera Modelling", "Computer Vision"],
       link: "https://github.com/melvin-tai/FoV-Lens-Projection-Lab",
       linkLabel: "Repository",
       demo: "https://melvin-tai.github.io/FoV-Lens-Projection-Lab/"
@@ -172,7 +172,7 @@ window.PORTFOLIO = {
       end: "Oct 2026",
       summary:
         "A live interpreter in the browser that transcribes speech in six languages and shows each sentence with its translation, with on-device or online processing options.",
-      tags: ["JavaScript", "Speech recognition", "Machine translation"],
+      tags: ["JavaScript", "Speech Recognition", "Machine Translation"],
       link: "https://github.com/melvin-tai/Audio-Language-Interpretation",
       linkLabel: "Repository",
       demo: "https://melvin-tai.github.io/Audio-Language-Interpretation/"
@@ -184,7 +184,7 @@ window.PORTFOLIO = {
       end: "Feb 2026",
       summary:
         "An AI-driven cloud intrusion-detection pipeline built with Vertex AI and the Gemini 3 API. It processes infrastructure logs through a continuous neural-network MLOps loop to detect unauthorised access and generate human-readable security explanations.",
-      tags: ["Vertex AI", "Gemini API", "Google Cloud", "MLOps", "Neural networks"],
+      tags: ["Vertex AI", "Gemini API", "Google Cloud", "MLOps", "Neural Networks"],
       link: "https://github.com/melvint-comp/Gemini-3",
       linkLabel: "Repository",
       demo: "https://melvint-comp.github.io/Gemini-3/"
@@ -207,7 +207,7 @@ window.PORTFOLIO = {
       end: "Jan 2026",
       summary:
         "A predictive framework in Python and Pandas that recommends the cheapest time to book GrabRide trips, achieving ≈47% optimisation in e-hailing price reduction.",
-      tags: ["Python", "Pandas", "Predictive modelling", "Data collection"],
+      tags: ["Python", "Pandas", "Predictive Modelling", "Data Collection"],
       link: "https://github.com/melvin-tai/GrabRide-Fare-Time-Cost-Optimization",
       linkLabel: "Repository",
       demo: "https://melvin-tai.github.io/GrabRide-Fare-Time-Cost-Optimization/"
@@ -221,7 +221,7 @@ window.PORTFOLIO = {
         "Engineered a weighted-rating algorithm in Python/Polars after analysing statistical models (Bayesian average, Wilson score interval, Bradley–Terry–Luce, Dirichlet-multinomial) to normalise large datasets and mitigate small-sample bias.",
         "Built automated pipelines for quantitative analysis and visualisation (histograms, box plots, clustering, normal fits) to evaluate algorithm performance across 400K+ records."
       ],
-      tags: ["Python", "Polars", "Statistical modelling", "Data visualisation"],
+      tags: ["Python", "Polars", "Statistical Modelling", "Data Visualisation"],
       link: "https://github.com/melvin-tai/Weighted-Rating-System",
       linkLabel: "Repository"
     },
@@ -234,7 +234,7 @@ window.PORTFOLIO = {
         "Developed a multi-sensor survival-device prototype on an ESP32 microcontroller (Arduino C++), combining ergonomic energy harvesting with synchronised date and time to extend survival time for lost adventurers.",
         "Optimised cost and design to reduce defect rate and improve scalability for commercial production."
       ],
-      tags: ["ESP32", "Arduino", "C++", "Embedded systems"],
+      tags: ["ESP32", "Arduino", "C++", "Embedded Systems", "Internet of Things"],
       link: "https://github.com/melvin-tai/Project-GRID",
       linkLabel: "Repository"
     }
@@ -255,7 +255,7 @@ window.PORTFOLIO = {
       summary:
         "Analysed Google Cloud and its competitors' market development, innovation and M&A over 5+ years, and built a TOWS matrix to recommend ways to grow market share.",
       link: "https://drive.google.com/file/d/1Hy_fa31npU_1Xy1tFj0GfyiObRzP2q8n/view?usp=sharing",
-      linkLabel: "Read preprint"
+      linkLabel: "Read Preprint"
     },
     {
       title: "Increasing Investment and Product Defect Rate in Jabil Inc.'s GoPro Project",
@@ -263,14 +263,15 @@ window.PORTFOLIO = {
       summary:
         "Assessed manufacturing performance with SWOT and fishbone analyses across 200+ workstations, quantifying a 7:3 manpower-to-automation ratio and a defect-rate fall from 8% to 0.5% over 7 product generations.",
       link: "https://drive.google.com/file/d/1tmIwbwqHsO2E_J56pmdi6T5MlM13R5T9/view?usp=sharing",
-      linkLabel: "Read preprint"
+      linkLabel: "Read Preprint"
     },
     {
       title: "Modeling a Camera's Field of View",
       status: "Research Preprint",
-      summary: "",
+      summary: 
+        "Quantified a GoPro HERO11’s barrel distortion using regression, integration and arc lengths, finding a 4.2% loss in an object's area and up to 13.5% stretch away from the centre, and amended its field of view at 20 cm to 70.2 * 61.4 cm.",
       link: "https://drive.google.com/file/d/1-hUJ_lgmyGY1akszkmVyXZiWeStMS39S/view?usp=drive_link",
-      linkLabel: "Read preprint"
+      linkLabel: "Read Preprint"
     }
   ],
 
