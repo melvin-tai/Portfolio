@@ -31,7 +31,7 @@ window.PORTFOLIO = {
     {
       title: "External Facilitator",
       organization: "Independent/Self-Employed",
-      location: "Kuala Lumpur, Malaysia",
+      location: "Hybrid (Remote & Kuala Lumpur, Malaysia)",
       start: "Jul 2026",
       end: "Present",
       summary: "Facilitated confidential multi-party negotiations as an independent intermediary, structuring equitable value distribution agreements that align with the interests of all stakeholders.",
